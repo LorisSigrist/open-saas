@@ -53,6 +53,14 @@ export default defineConfig({
           ],
         },
       ],
+
+      defaultLocale: 'root',
+      locales: {
+        root: {
+          label: 'English',
+          lang: 'en',
+        },
+      },
     }),
   ],
 });
